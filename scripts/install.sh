@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Restarting web server..."
+echo "Restarting Apache Web Server"
 sudo systemctl restart httpd || sudo systemctl restart nginx
